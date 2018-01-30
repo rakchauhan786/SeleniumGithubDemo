@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.084">
+  <properties />
+  
+  
+            <testcase name="JiraApplogout" time="22.086" classname="ProjLoginLogout.ProjLoginLogout.JiraAppTest" />
+                <testcase name="JiraAppLogin" time="0.998" classname="ProjLoginLogout.ProjLoginLogout.JiraAppTest" />
+      
+</testsuite>

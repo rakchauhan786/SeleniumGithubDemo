@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24458" started-at="2018-01-30T08:18:11Z" finished-at="2018-01-30T08:18:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24458" started-at="2018-01-30T08:18:11Z" finished-at="2018-01-30T08:18:35Z">
+      <class name="ProjLoginLogout.ProjLoginLogout.JiraAppTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ProjLoginLogout.ProjLoginLogout.JiraAppTest@97e93f1]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2018-01-30T13:48:11Z" finished-at="2018-01-30T13:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="JiraAppLogin()[pri:0, instance:ProjLoginLogout.ProjLoginLogout.JiraAppTest@97e93f1]" name="JiraAppLogin" duration-ms="1117" started-at="2018-01-30T13:48:11Z" finished-at="2018-01-30T13:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JiraAppLogin -->
+        <test-method status="PASS" signature="JiraApplogout()[pri:1, instance:ProjLoginLogout.ProjLoginLogout.JiraAppTest@97e93f1]" name="JiraApplogout" duration-ms="23321" started-at="2018-01-30T13:48:12Z" finished-at="2018-01-30T13:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JiraApplogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ProjLoginLogout.ProjLoginLogout.JiraAppTest@97e93f1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-30T13:48:35Z" finished-at="2018-01-30T13:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ProjLoginLogout.ProjLoginLogout.JiraAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
