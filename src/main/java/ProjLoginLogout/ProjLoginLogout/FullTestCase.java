@@ -12,14 +12,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 /**
- * @author Ruturaj
+ * @author Rakesh
  *
  */
 public class FullTestCase {
 	 WebDriver driver= null;
 	 public WebDriver chromeBrowser() 
 	 { 		
-	 	System.setProperty("webdriver.chrome.driver", "..//chromedriver.exe");
+	 	System.setProperty("webdriver.chrome.driver", "..//chromedriver");
 	 		driver= new ChromeDriver();		//driver.manage().window().maximize();
 	 		String baseUrl ="http://demo.amrutsoftware.com:8080";
 	 		driver.get(baseUrl);
