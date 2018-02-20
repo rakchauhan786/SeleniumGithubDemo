@@ -169,7 +169,7 @@ public void logout()
 	//assertEquals(driver.findElement(By.xpath("//*[@id='find_link'][@title='Search for issues and view recent issues']")).isDisplayed(),true);
 	driver.findElement(By.xpath("//*[@id='header-details-user-fullname']/span/span/img")).click();
 	//Thread.sleep(1000);
-	 driver.findElement(By.id("log_out1")).click();
+	 driver.findElement(By.id("log_out")).click();
 	 
 	 System.out.println("Logout successully......");
 }
