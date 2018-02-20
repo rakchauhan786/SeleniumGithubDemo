@@ -29,18 +29,20 @@ public class JiraAppTest {
   			j.login();
   
   }
-  
- @Test(priority =1)
+
+  @Test(priority =1)
   public void JiraApplogout() throws FileFormatException, IOException
   {	
 	 j.logout();
 	 System.out.println("Testing Logout ...");
   }
- // @Test(priority =3)
+  
+  //@Test(priority =1)
   public void CreateUser() throws FileFormatException, IOException
   {		 	j.createusers();
 	  		//System.out.println("Testing Login and logout..");
   }
+
   @BeforeSuite
   public void beforeMethod() throws InterruptedException {
 	 j.TestStartTime();
