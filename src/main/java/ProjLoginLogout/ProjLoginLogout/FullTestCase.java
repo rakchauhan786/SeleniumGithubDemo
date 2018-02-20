@@ -19,8 +19,9 @@ public class FullTestCase {
 	 WebDriver driver= null;
 	 public WebDriver chromeBrowser() 
 	 { 		
-	 	System.setProperty("webdriver.chrome.driver", "..//chromedriver");
-	 		driver= new ChromeDriver();		//driver.manage().window().maximize();
+	 	//System.setProperty("webdriver.chrome.driver", "..//chromedriver");
+	 	System.setProperty("webdriver.chrome.driver", "..//chromedriver.exe");
+	 	driver= new ChromeDriver();		//driver.manage().window().maximize();
 	 		String baseUrl ="http://demo.amrutsoftware.com:8080";
 	 		driver.get(baseUrl);
 	 	//	Thread.sleep(1000);

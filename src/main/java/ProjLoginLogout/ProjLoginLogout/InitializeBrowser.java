@@ -16,8 +16,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		public static WebDriver testdriver()
 		{ 
 			if(driver == null){
-			 System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver");
-			 //System.setProperty("webdriver.chrome.driver", "C://Users//RC//workspace//SeleniumGithubDemo//src//main//resources//chromedriver.exe");
+			 //System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver");
+			 System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver.exe");
 			 
 			 driver = new ChromeDriver();
 			 driver.get(baseUrl);
